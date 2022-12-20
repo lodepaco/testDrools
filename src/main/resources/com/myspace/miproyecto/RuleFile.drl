@@ -1,0 +1,10 @@
+package com.myspace.miproyecto;
+
+import com.myspace.miproyecto.Jewelry;
+
+rule "reglAAA"
+    when
+        je:Jewelry(type=="gold")
+    then
+        je.setOffer("10");
+end

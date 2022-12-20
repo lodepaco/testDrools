@@ -1,0 +1,8 @@
+package com.myspace.miproyecto;
+
+rule "oferta por plata"
+    when
+        La joya es de plata
+    then
+        Ofrecer 5 euros
+end
